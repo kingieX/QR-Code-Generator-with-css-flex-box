@@ -44,6 +44,15 @@ p{
     align-items: center;
 }
 
-.attribution {
-    
-}
+footer {
+    background-color: $dark-blue;
+    color: $grayish-blue;
+    margin-top: auto;
+    font-size: 1rem;
+    line-height: 30px;
+    text-align: center;
+
+    a {
+        color: $light-gray;
+        text-decoration: none;
+    }
