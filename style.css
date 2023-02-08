@@ -10,7 +10,8 @@ body {
 }
 
 .container{
-    margin: 25%;
+    /* margin: 25%; */
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,17 +21,17 @@ body {
 .box {
 
     background-color: hsl(0, 0%, 100%);
-    height: auto;
-    width: 250px;
-    padding: 20px;
+    /* height: auto; */
+    width: 320px;
+    padding: 15px;
     border-radius: 15px;
-    margin: 0px;
     box-sizing: border-box;
+    text-align: center;
 
 }
 
 .container .box img {
-    width: 200px;
+    max-width: 100%;
     border-radius: 15px;
 }
 
@@ -38,21 +39,31 @@ body {
     padding-top: 10px;
 }
 
-p{
+
+ h1{
     font-size: 15px;
-    padding-top: 10px 20px;
-    align-items: center;
+    margin-top: 10px;
+    padding-top: 10px 10px;
+    text-align: center;
+}
+
+p{
+    font-size: 1rem;
+    padding: 10px 10px;
+    text-align: center;
+    opacity: 0.5;
+    margin-bottom: 10px;
 }
 
 footer {
-    background-color: $dark-blue;
-    color: $grayish-blue;
-    margin-top: auto;
+    background-color: hsl(212, 45%, 89%);
+    color: #000;
+    margin-bottom: auto;
     font-size: 1rem;
     line-height: 30px;
     text-align: center;
 
     a {
-        color: $light-gray;
+        color: white;
         text-decoration: none;
     }
