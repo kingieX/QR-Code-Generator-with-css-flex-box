@@ -1,0 +1,49 @@
+* {
+    margin: 0px;
+    padding:0px; 
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background:  hsl(212, 45%, 89%);
+    font-size: 15px;
+}
+
+.container{
+    margin: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box {
+
+    background-color: hsl(0, 0%, 100%);
+    height: auto;
+    width: 250px;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+.container .box img {
+    width: 200px;
+    border-radius: 15px;
+}
+
+.container .box h3{
+    padding-top: 10px;
+}
+
+p{
+    font-size: 15px;
+    padding-top: 10px 20px;
+    align-items: center;
+}
+
+.attribution {
+    
+}
